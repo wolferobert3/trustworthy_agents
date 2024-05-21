@@ -93,8 +93,8 @@ with gr.Blocks() as interface:
             prompt = gr.Textbox(label="What image should be created?", placeholder="Describe the picture you want to be created.")
             button = gr.Button("Generate Image")
             
-            with gr.Accordion("Secret!", open=False):
-                secret = gr.Textbox(label="Secret", placeholder="Enter the secret change to the image here.")
+            with gr.Accordion("Rule for Fair AI", open=False):
+                secret = gr.Textbox(label="Rule", placeholder="Enter the rule to create fair AI here.")
 
         with gr.Column():
 
